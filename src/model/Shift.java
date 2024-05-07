@@ -23,5 +23,15 @@ public class Shift {
 		this.patient = patient;
 	} 
 	
+	public Patient getPatient() {
+		return patient;
+	}
 	
+	public float getOvertimeSalary() {
+		return overtimeSalary;
+	}
+	
+	public String getType() {
+		return type;
+	}
 }
